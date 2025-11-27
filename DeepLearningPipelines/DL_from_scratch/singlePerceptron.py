@@ -7,7 +7,7 @@ def sigmoid(z):
     return np.where(z >= 0.5, 1, 0)
 
 
-class Perceptron:
+class PerceptronPipeline:
     def __init__(self, lr=0.01, epochs=1000):
         self.lr = lr
         self.epochs = epochs
@@ -42,7 +42,7 @@ if __name__ == "__main__":
         X, y, test_size=0.2, random_state=123
     )
 
-    p = Perceptron(lr=0.01, epochs=1000)
+    p = PerceptronPipeline(lr=0.01, epochs=1000)
     p.fit(X_train, y_train)
     predictions = p.predict(X_test)
 
