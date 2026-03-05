@@ -2,3 +2,8 @@ tensorflow
 keras
 scikit-learn
 ipykernel
+torch
+pandas
+matplot
+nltk
+torch
