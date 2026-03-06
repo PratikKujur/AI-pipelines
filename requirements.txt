@@ -7,3 +7,7 @@ pandas
 matplot
 nltk
 torch
+langchain-groq
+langchain-community
+langchain-core
+groq

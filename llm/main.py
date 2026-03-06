@@ -1,6 +1,5 @@
-import os
 def main():
-    print(os.curdir)
+    print("Hello from llm!")
 
 
 if __name__ == "__main__":
