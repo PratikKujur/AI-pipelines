@@ -11,3 +11,4 @@ langchain-groq
 langchain-community
 langchain-core
 groq
+torchsummary
