@@ -4,7 +4,7 @@ scikit-learn
 ipykernel
 torch
 pandas
-matplot
+matplotlib
 nltk
 torch
 langchain-groq
@@ -12,3 +12,5 @@ langchain-community
 langchain-core
 groq
 torchsummary
+opendatasets
+torchvision
